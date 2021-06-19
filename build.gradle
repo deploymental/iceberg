@@ -64,6 +64,7 @@ allprojects {
   group = "org.apache.iceberg"
   version = getProjectVersion()
   repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/' }
     maven { url  "http://palantir.bintray.com/releases" }
     mavenCentral()
     mavenLocal()
