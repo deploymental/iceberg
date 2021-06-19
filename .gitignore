@@ -15,7 +15,7 @@ tmp/
 build
 dependencies.lock
 **/dependencies.lock
-gradle/
+# gradle/
 out
 # gradle/wrapper/gradle-wrapper.jar
 
